@@ -8,9 +8,7 @@ import PropTypes from 'prop-types';
 const CountryPicker = ({ onClose, visible, onCountrySelected }) => {
     const [countries, setCountries] = useState(COUNTRYUTILS)
     const [filteredCountries, setFilteredCountries] = useState(countries);
-    const [showModal, setShowModal] = useState(true);
-    const [countrySelected, setCountrySelected] = useState(null);
-
+  
 
     useEffect(() => {
         addIds()
