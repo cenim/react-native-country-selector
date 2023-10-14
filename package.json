@@ -1,8 +1,7 @@
 {
-  "name": "CountryPicker",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
+  "name": "react-native-country-selector",
+  "version": "1.0.0",
+   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
@@ -14,7 +13,6 @@
     "react": "18.2.0",
     "react-native": "0.72.6",
     "react-native-gesture-handler": "^2.13.2"
-   
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -35,5 +33,18 @@
   },
   "engines": {
     "node": ">=16"
-  }
+  },
+  "description": "A simple react native country picker. It provides name of country, dial code, currency, country code,flag and more.",
+  "main": "index.js",
+  "keywords": ["React Native","IOS","Android picker","Country Picker","react","react native country picker","currency selector","country flags","country select"],
+  "author": "Christopher Enim",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cenim/react-native-country-selector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cenim/react-native-country-selector/issues"
+  },
+  "homepage": "https://github.com/cenim/react-native-country-selector"
 }
