@@ -4,6 +4,7 @@
 
 # Xcode
 #
+ios/build/
 build/
 *.pbxuser
 !default.pbxuser
@@ -21,10 +22,10 @@ DerivedData
 *.ipa
 *.xcuserstate
 ios/.xcode.env.local
-
+.git/
 # Android/IntelliJ
 #
-build/
+android/app/build/
 .idea
 .gradle
 local.properties
@@ -39,6 +40,8 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
+.yarn/releases/
+
 
 # fastlane
 #
