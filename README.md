@@ -2,15 +2,15 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Installation
 ```bash
-yarn add react-native-country-picker
+yarn add react-native-country-selector
 ```
 or
 ```bash
-npm install react-native-country-picker
+npm install react-native-country-selector
 ```
 # Usage 
 ```JavaScript
-import CountryPicker from 'react-native-country-picker'
+import CountryPicker from 'react-native-country-selector'
 
  <CountryPicker
    visible={showPicker}
@@ -32,7 +32,7 @@ OUTPUT
 
 ```visible``` :  ```true``` or ```false``` values Show or hide picker. 
 <br>
-```onClose``` :  ```function``` to perform hiding/closing the country picker. <br>
+```onClose``` :  ```function``` to perform hiding/closing the country selector. <br>
 ```onCountrySelected```: ```function``` . Perform an operation after selecting the country of your choice. Get the data and manipulate it :)
 
 
