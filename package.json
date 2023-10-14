@@ -1,7 +1,7 @@
 {
   "name": "react-native-country-selector",
-  "version": "1.0.0",
-   "scripts": {
+  "version": "1.0.1",
+  "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
@@ -36,7 +36,17 @@
   },
   "description": "A simple react native country picker. It provides name of country, dial code, currency, country code,flag and more.",
   "main": "index.js",
-  "keywords": ["React Native","IOS","Android picker","Country Picker","react","react native country picker","currency selector","country flags","country select"],
+  "keywords": [
+    "React Native",
+    "IOS",
+    "Android picker",
+    "Country Picker",
+    "react",
+    "react native country picker",
+    "currency selector",
+    "country flags",
+    "country select"
+  ],
   "author": "Christopher Enim",
   "license": "ISC",
   "repository": {

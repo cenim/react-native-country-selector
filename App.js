@@ -18,11 +18,9 @@ const CountryPicker = ({ onClose, visible, onCountrySelected }) => {
     const renderCountries = ({ item }) => {
         return (
             <TouchableOpacity
-                style={styles.countryItem} onPress={() => {
-                    console.log("Pressed...")
+                style={styles.countryItem} onPress={() => {    
                     onCountrySelected(item)
                     onClose()
-
 
                 }}>
                 <Image source={item.flag} resizeMode="contain" style={styles.flag} />
